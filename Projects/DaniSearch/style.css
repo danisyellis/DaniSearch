@@ -1,0 +1,54 @@
+body {
+	margin: 0px;
+	background-image: url("http://www.wildplantdatabase.net/plantImages/305_2010712191452.jpg");
+	background-size: 155% 500%;
+	background-repeat: no-repeat;
+
+	
+
+}
+footer {
+	font-family: "Open Sans", "Helvetica", sans-serif;
+	background-color: #6e6e6e;
+	color: white;	
+	position: fixed; bottom: 0; 
+	width: 100%;
+	text-align: center;
+	border-top: solid 2px black;
+}
+h3 {
+	-webkit-margin-before: 0.0em;
+	-webkit-margin-after: 0.0em;
+	-webkit-margin-start: 0px;
+	-webkit-margin-end: 0px;
+	font-weight: normal;
+}
+img {
+	height: 50px;
+
+}
+div {
+	text-align: center;
+}
+
+p {
+	font-family: cursive;	
+}https://mail.google.com/mail/u/0/?ui=2#inbox
+form {
+
+}
+
+@media screen and (max-width: 880px) {
+	body {
+		background-image:url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSTEbGOsvybf7BhYic9uOSw-QkNmKH4tade03JSleiwUKO7_Pbh2w");
+	}
+
+}
+
+
+/*make it responsive with if I want my page to be responsive, no height and width for images
+if not using bootstrap, will want boilerplate.css. Want, on average, 3 diff css rules for based on how many pixels it's being shown on- ex. 480px or below is mobile   min-width: 769px  use media queries
+
+
+
+
